@@ -77,7 +77,7 @@ it('lets user2 buy a star and decreases its balance in ether', async() => {
 
 it('can add the star name and star symbol properly', async() => {
     // 1. create a Star with different tokenId
-    let tokenName = 'NeziheTokenTEST',
+    let tokenName = 'Nezihe Token',
     tokenSymbol = 'NST'; 
     let newtoken = await StarNotary.new(tokenName, tokenSymbol);
 
